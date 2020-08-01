@@ -156,7 +156,7 @@ if ($('.isotope_items').length) {
     if ($('.element').length) {
         $('.element').each(function () {
             $(this).typed({
-                strings: [$(this).data('text1'), $(this).data('text2')],
+                strings: [$(this).data('text1'), $(this).data('text2'), $(this).data('text3'), $(this).data('text4')],
                 loop: $(this).data('loop') ? $(this).data('loop') : false ,
                 backDelay: $(this).data('backdelay') ? $(this).data('backdelay') : 2000 ,                
                 typeSpeed: 10,
